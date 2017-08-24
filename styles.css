@@ -1,0 +1,119 @@
+body {
+ margin: 0;
+ padding: 0;
+ background-image: url("./img/main-bg.jpeg");
+ background-repeat: no-repeat;
+ background-size: 2000px;
+ width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.bigTitle {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1%;
+  top: 20vh;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#title {
+  font-size: 900%;
+}
+
+#title2 {
+  position: absolute;
+  font-size: 200%;
+  width: 100%;
+  margin: 0 auto;
+  top: 25vh;
+}
+
+
+.arrow {
+ position: absolute;
+ background-image: url("https://image.flaticon.com/icons/svg/24/24567.svg");
+ background-repeat: no-repeat;
+ background-size: 100px;
+ padding: 6vh;
+ margin: 0 auto;
+ top: 75vh;
+ width: 0 auto;
+ left: 48%;
+}
+.navbar {
+  display: none;
+
+}
+
+.twitter {
+  display: none;
+
+}
+
+.fb{
+  display: none;
+  width: 50%;
+  height: 25vh;;
+  background-image: url("http://www.noblehouse.scot/wp-content/uploads/2014/04/facebook.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  margin: 0 auto;
+  bottom:  100px;
+
+
+}
+
+
+
+@media only screen and (max-width: 768px){
+ul {
+  display: none;
+}
+
+
+.navbar {
+  position: absolute;
+  display: block;
+  left: 2vh;
+  top: 20px;
+  font-size: 300%;
+}
+
+.twitter {
+  display: block;
+ position: absolute;
+ background-image: url("https://digiday.com/wp-content/themes/digiday/static/images/icon_social_twitter-white.svg");
+ background-repeat: no-repeat;
+ height: 100px;
+ width: 15%;
+ right: 5%;
+ top: 40px;
+}
+
+.fb{
+  display: block;
+  width: 50%;
+  height: 25vh;;
+  background-image: url("http://www.noblehouse.scot/wp-content/uploads/2014/04/facebook.png");
+  background-repeat: no-repeat;
+  background-size: 20%;
+  margin-right: -20%;
+  margin-top: 50px;
+
+  bottom:  100px;
+
+}
+}
